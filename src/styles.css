@@ -1,0 +1,92 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgb(233, 233, 233);
+}
+body {
+  text-align: center;
+}
+
+.heading {
+  background-color: rgb(214, 185, 54);
+  margin: 0;
+  font-family: "Caveat", cursive;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.before input {
+  background: rgb(255, 255, 255);
+  height: 25px;
+  width: 250px;
+  border-radius: 10px;
+  margin: auto;
+  border: none;
+  padding: 20px;
+}
+.info {
+  background: rgb(255, 255, 255);
+  min-height: 95px;
+  width: 300px;
+  border-radius: 10px;
+  margin: auto;
+}
+.info input {
+  display: block;
+  background: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.info button {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  border: none;
+  position: absolute;
+  margin: -5px 0px 10px 100px;
+  background: linear-gradient(180deg, #ece9a5 0%, #ede388 100%);
+  cursor: pointer;
+  font-size: 25px;
+}
+.title {
+  font-size: 20px;
+}
+.content {
+  width: 250px;
+  border-radius: 10px;
+}
+.note {
+  width: 250px;
+  min-height: 20px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 20px 10px 0 10px;
+  padding: 20px;
+  float: left;
+  text-align: left;
+}
+.note h3 {
+  background-color: white;
+  border-radius: 20px;
+}
+.note p {
+  background-color: white;
+  min-height: 20px;
+  max-width: 250px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+.note img {
+  position: relative;
+  background: rgb(255, 255, 255);
+  margin-left: 230px;
+  margin-bottom: -10px;
+  cursor: pointer;
+}
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+}
